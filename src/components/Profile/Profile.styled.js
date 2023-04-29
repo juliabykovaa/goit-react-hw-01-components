@@ -43,6 +43,7 @@ li {
     gap: 20px;
     flex-direction: column;
     align-items: center;
+    list-style: none;
 }`
 
 export const UserName = styled.p`
