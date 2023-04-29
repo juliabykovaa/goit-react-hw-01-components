@@ -24,6 +24,6 @@ tr:nth-of-type(even) {
 `
 
 export const TableHead = styled.thead`
-background-color: rgb(0,191,255);
+background-color: rgb(70,130,180);
 color: #fff;
 `
