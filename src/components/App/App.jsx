@@ -1,7 +1,9 @@
 import user from './../../data/user.json';
-import stats from './../../data/data.json'
-import { Profile } from '../Profile/Profile'
-import { Statistics } from '../Statistics/Statistics'
+import stats from './../../data/data.json';
+import friendList from './../../data/friends.json'
+import { Profile } from '../Profile/Profile';
+import { Statistics } from '../Statistics/Statistics';
+import { FriendList } from 'components/FriendList/FriendList';
 
 
 export function App() {
@@ -16,6 +18,7 @@ export function App() {
       />
 
       <Statistics title="Upload stats" stats={stats} />
+      <FriendList friends={friendList} />;
 
     </>
   );

@@ -11,7 +11,7 @@ export const Profile = ({username, tag, location, avatar, stats: {followers, vie
       className="avatar"
     />
     <UserName>{username}</UserName>
-    <Tag>{tag}</Tag>
+    <Tag>@{tag}</Tag>
     <Location>{location}</Location>
   </Description>
 
